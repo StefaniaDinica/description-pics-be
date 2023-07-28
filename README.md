@@ -22,6 +22,7 @@ The structure of this project was made in order to be deployed on AWS lambda usi
 
 ## About the files
 - app.py - flask backend
+
 In app.py, if needed, update WIDTH and HEIGHT variables with the ones used for training the model.
 - lamba_function.pt - entrypoint in AWS lambda
 - Dockerfile - is the file used for creating the Docker image

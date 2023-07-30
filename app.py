@@ -22,6 +22,7 @@ handler.setFormatter(logging.Formatter(
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
+#These values must be replaced with the minimum width and height of the images (in pixels)
 WIDTH = 367
 HEIGHT = 400
 
